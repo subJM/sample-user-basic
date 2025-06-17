@@ -1,6 +1,6 @@
 <?= $this->extend('backend/layout/pages-layout'); ?>
 <?= $this->section('content') ?>
-<link rel="stylesheet" href="/backend/css/casino_lobby.css">
+<link rel="stylesheet" href="/backend/css/swix.css">
 <div class="sub_content_arr">
     <img src="/backend/images/logo.png?1113">
 

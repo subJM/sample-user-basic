@@ -112,8 +112,6 @@
 				</div>
 			</div>
 		</div>
-<<<<<<< HEAD
-=======
 		<!-- welcome modal start -->
 		<!-- <div class="welcome-modal">
 			<button class="welcome-modal-close">
@@ -188,7 +186,6 @@
 			<i class="fa fa-download"></i> Download
 		</button> -->
 		<!-- welcome modal end -->
->>>>>>> 895e8c8d772488d6acfc4167e52f71a3d21c8239
 		<!-- js -->
 		<script src="/backend/vendors/scripts/core.js"></script>
 		<script src="/backend/vendors/scripts/script.min.js"></script>

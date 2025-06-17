@@ -1,0 +1,90 @@
+	
+ .submain-img { height: 700px; width: 40%; float: left; background: url("../images/submain-minigame.png?14") center center no-repeat; background-size: contain; box-sizing: border-box;     -webkit-animation: aniLogo 2.6s infinite;    animation: aniLogo 2.6s infinite;}	
+
+
+
+.companys { padding: 10px;} 
+.companys li {position: relative; cursor: pointer;	box-sizing: border-box;	text-align: center; display: inline-block; width: 33.33%;  padding: 10px; display: flex; float: left; transition: 0.2s;}	
+   
+.companys-title span {cursor: pointer; display: none;  font-size: 20px; text-align: center; height: 40px; line-height: 40px; position: absolute; bottom: 0%; left: 1px; right: 1px; color: #ffc160; font-weight: bold; background: rgba(0,0,0,0.8)  }
+.companys-title {  width: 100%; background-size: 100% !important;      position: relative; transition: 1s;    }
+
+
+	.companys-title img { width: 100%}
+   
+.companys-title {
+    width: 100%;
+    position: relative;
+    transition: 0.4s;
+    border: 2px solid #00f295;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.companys-title:hover {
+   border: 2px solid #00fa9a;
+    filter: drop-shadow(0px 0px 20px #00fa9a);
+}
+.companys-title img {
+    width: 100%;
+}
+.companys-title:hover img {
+    -webkit-animation: aniModel 1s infinite;
+    animation: aniModel 1s infinite
+}
+@keyframes aniModel {
+0% {
+transform: translate(0px, 0px);
+}
+50% {
+transform: translate(0px, 5px);
+}
+to {
+transform: translate(0px, 0px);
+}
+}
+    
+ .companys { width: 60%; float: right; box-sizing: border-box;}
+    
+	.aniLogo {
+  -webkit-animation: aniLogo 1.5s infinite;
+  animation: aniLogo 1.5s infinite
+}
+@keyframes aniLogo {
+  0% {
+    background-position-y: 0px;
+    transform: scale(1)
+  }
+  50% {
+    background-position-y: 5px;
+    transform: scale(1.03)
+  }
+  to {
+    background-position-y: 0px;
+    transform: scale(1)
+  }
+}
+.companys h6 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    font-family: NotoSansKR !important;
+    padding-left: 15px;
+  
+  
+    display: inline-block;
+    text-shadow: 0 0 1px rgba(0,0,0,0.7);
+}
+.companys h6 small {
+    font-weight: 100;
+    font-size: 20px;
+    color: #999;
+}	
+	
+	.sub_content_arr { padding-top: 0;}	 	
+    
+  
