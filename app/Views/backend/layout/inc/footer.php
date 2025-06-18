@@ -142,10 +142,8 @@ needed for betting. </div>
 	// 	__popup = new popupClass();if (getCookie('popup_12') != 'no') { __popup.title = '콤프팝업';__popup.PageMode = 1;__popup.$open("popup.asp?seq=12", "popup_12", "top=50, left=400, width=500, height=830, scrollbars=N");}__popup = new popupClass();if (getCookie('popup_13') != 'no') { __popup.title = '웰컵팝업';__popup.PageMode = 1;__popup.$open("popup.asp?seq=13", "popup_13", "top=50, left=950, width=500, height=830, scrollbars=N");}__popup = new popupClass();if (getCookie('popup_17') != 'no') { __popup.title = '트론(TRX) 수수료 팝업';__popup.PageMode = 1;__popup.$open("popup.asp?seq=17", "popup_17", "top=50, left=400, width=500, height=830, scrollbars=N");}
 	// });
 </script>
-
-
  
-<script type="text/javascript" src="/backend/jsjquery.newsTicker.js"></script> 
+<script type="text/javascript" src="/backend/js/jquery.newsTicker.js"></script> 
 <script>
     jQuery(document).ready(function ($) {
         var nt_example1 = $('#vertical-ticker').newsTicker({
@@ -160,5 +158,61 @@ needed for betting. </div>
         });
     });
 </script>
+<style type="text/css">
+#footer {
+    margin-top: 10px;
+    width: 100%;
+    padding: 0px 0;
+	padding-bottom: 50px;
+    background: #111;
+}
+.copyright {
+    text-align: center;
+    color: #999;
+}
+.copyright .footer-logo {
+    margin: 20px auto;
+    display: block;
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.swiper-slide img {
+    width: 75px;
+    vertical-align: middle;
+}
+.carousel-gallery {
+    width: 98%;
+    margin: 1%;
+}
+.ft-bnks {
+    padding: 10px 0;
+    text-align: center;
+}
+.ft-bnks img {
+    margin: 0 10px;
+    display: inline-block;
+}
+	
+.topZone {
+    display: flex;
+    padding: 36px 20px;
+    margin: 0;
+    justify-content: space-between;
+}
+	.leftZone  .logos img{    margin-bottom: 20px;
+    width: 183px}
+	.leftZone .txt img { vertical-align: middle; width: 35px; margin-right: 5px;}
+	
+	.rightZone01 .links { display: block; text-align: center; }	
+	
+	.rightZone01 .links a { display: inline-block; padding: 10px;}
+	.rightZone01 .links a:hover { color: #5bd6bd;}
+	.sns_wrap img { vertical-align: middle; margin: 0 5px;}
+</style>
 </body>
 </html>

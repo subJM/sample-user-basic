@@ -37,10 +37,10 @@
               <li><span><a href="/board/helper"><i class="fi fi-rr-whistle"></i>
                     <div class="txt">USDT 도움말</div>
                   </a></span></li>
-              <li><a href="cash_01.asp" title="충전신청"><i class="fi fi-rr-hand-bill"></i>
+              <li><a href="/money/recharge" title="충전신청"><i class="fi fi-rr-hand-bill"></i>
                   <div class="txt">입금</div>
                 </a></li>
-              <li><a href="cash_02.asp" title="환전신청"><i class="fi fi-rr-money-from-bracket"></i>
+              <li><a href="/money/cash2" title="환전신청"><i class="fi fi-rr-money-from-bracket"></i>
                   <div class="txt">출금</div>
                 </a></li>
               <!--
@@ -51,13 +51,13 @@
                 <div class="txt">경기결과</div>
                 </a></span></li>
 -->
-              <li><a href="coupon.asp" title="쿠폰함"><i class="fi fi-rr-ticket"></i>
+              <li><a href="/events/coupon" title="쿠폰함"><i class="fi fi-rr-ticket"></i>
                   <div class="txt">쿠폰함</div>
                 </a></li>
-              <li> <a href="memo.asp"><i class="fi fi-rr-envelope"></i>
+              <li> <a href="/board/message"><i class="fi fi-rr-envelope"></i>
                   <div class="txt">쪽지( <strong id="i_rank" name="i_rank">0</strong> )</div>
                 </a></li>
-              <li><a href="/info_edit.asp" title="마이페이지"><i class="fi fi-rr-circle-user"></i>
+              <li><a href="/user/info_edit" title="마이페이지"><i class="fi fi-rr-circle-user"></i>
                   <div class="txt">마이페이지</div>
                 </a></li>
               <li><a href="recommend_list.asp"><i class="fi fi-rr-review"></i>

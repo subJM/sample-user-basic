@@ -903,10 +903,9 @@ box-shadow: inset 0px 0px 5px white;
 </div>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>  -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" language="javascript" src="./js/lib.comm.js"></script> 
-<script type="text/javascript" language="javascript" src="./js/lib.stringbuilder.js"></script> 
-<script type="text/javascript" language="javascript" src="./js/lib.string.js"></script> 
-<script language="JavaScript" type="text/javascript" src="./js/lobby_swix.js?12023-04-11"></script> 
+<script type="text/javascript" language="javascript" src="/backend/js/lib.stringbuilder.js"></script> 
+<script type="text/javascript" language="javascript" src="/backend/js/lib.string.js"></script> 
+<script language="JavaScript" type="text/javascript" src="/backend/js/lobby_swix.js?12023-04-11"></script> 
 <script type="text/javascript">
   var lists = [];
   var runningFlag = false;

@@ -9,7 +9,6 @@ class BoardController extends BaseController
 {
     public function helper()
     {
-        var_dump('check');die;
         return view('backend/pages/board/helper');
     }
 }
