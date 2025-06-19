@@ -40,6 +40,7 @@
               <li><a href="/money/recharge" title="충전신청"><i class="fi fi-rr-hand-bill"></i>
                   <div class="txt">입금</div>
                 </a></li>
+              <!-- /money/cash2 => /money/cash 로 수정 필요 -->
               <li><a href="/money/cash2" title="환전신청"><i class="fi fi-rr-money-from-bracket"></i>
                   <div class="txt">출금</div>
                 </a></li>
@@ -57,13 +58,14 @@
               <li> <a href="/board/message"><i class="fi fi-rr-envelope"></i>
                   <div class="txt">쪽지( <strong id="i_rank" name="i_rank">0</strong> )</div>
                 </a></li>
+              <!-- /user/info_edit => /user/editConfirm 으로 수정 필요 -->
               <li><a href="/user/info_edit" title="마이페이지"><i class="fi fi-rr-circle-user"></i>
                   <div class="txt">마이페이지</div>
                 </a></li>
-              <li><a href="recommend_list.asp"><i class="fi fi-rr-review"></i>
+              <li><a href="/user/recommend_list"><i class="fi fi-rr-review"></i>
                   <div class="txt">추천내역</div>
                 </a></li>
-              <li><a href="attendance2.asp"><i class="fi fi-rr-calendar-heart"></i>
+              <li><a href="/user/attendance"><i class="fi fi-rr-calendar-heart"></i>
                   <div class="txt">출석하기</div>
                 </a></li>
 
@@ -72,23 +74,23 @@
                 </a></span></li -->
 
 
-              <li><a href="event.asp" title="게시판"> <i class="fi fi-rr-gifts"></i>
+              <li><a href="/events/promotion" title="게시판"> <i class="fi fi-rr-gifts"></i>
                   <div class="txt">프로모션</div>
                 </a></li>
-              <li><a href="notice.asp" title="공지 &amp; 규정"><i class="fi fi-rr-megaphone-sound-waves"></i>
+              <li><a href="/board/notice" title="공지 &amp; 규정"><i class="fi fi-rr-megaphone-sound-waves"></i>
                   <div class="txt">공지 &amp; 규정</div>
                 </a></li>
 
 
 
-              <li><span><a href="betting_01.asp"><i class="fi fi-rr-features"></i>
+              <li><span><a href="/board/betting"><i class="fi fi-rr-features"></i>
                     <div class="txt">베팅내역</div>
                   </a></span></li>
-              <li><span><a href="result.asp"><i class="fi fi-rr-ranking-stars"></i>
+              <li><span><a href="/board/betting_result"><i class="fi fi-rr-ranking-stars"></i>
                     <div class="txt">경기결과</div>
                   </a></span></li>
 
-              <li><a href="customer.asp"><i class="fi fi-rr-head-side-headphones"></i>
+              <li><a href="/board/customer_center"><i class="fi fi-rr-head-side-headphones"></i>
                   <div class="txt">고객센터</div>
                 </a></li>
             </ul>
@@ -99,4 +101,5 @@
     </div>
   </div>
 </div>
+
 <link rel="import" href="/public/backend/js/menu/link.js">

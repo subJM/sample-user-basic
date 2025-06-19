@@ -2,13 +2,13 @@
 <?= $this->section('content') ?>
 <div class="sub_content_arr">
     <div>
-        <form name="frm" id="frm" action="/freeboard.asp" method="post">
+        <form name="frm" id="frm" action="/notice.asp" method="post">
             <input type="hidden" name="page" value="1">
             <input type="hidden" name="code_group" value="65">
             <input type="hidden" name="code_no" value="65">
-            <input type="hidden" name="code" value="5">
-            <div class="subTitle_freeboard">
-                <h2>USDT 도움말 <small></small></h2>
+            <input type="hidden" name="code" value="7">
+            <div class="subTitle_notice">
+                <h2>공지 &amp; 규정 <small>notice</small></h2>
             </div>
             <!-- 서브타이틀 -->
 
@@ -18,7 +18,7 @@
                         <th width="70" height="24">번호</th>
                         <th>제목</th>
                         <th width="126" align="left" style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;작성자</th>
-                        <th width="110" style="display:none">작성일시</th>
+                        <th width="110" style="">작성일시</th>
                         <th width="70" style="display:none">조회수</th>
                     </tr>
                 </tbody>
@@ -27,68 +27,89 @@
                 <tbody>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=201&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=170&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 1.USDT 이용을 위한 준비물 </font>
+                                    <font style="color:#FFFFFF">미니게임 이용 규정</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=202&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=169&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 2.개인지갑 생성 </font>
+                                    <font style="color:#FFFFFF">베팅금 및 당첨 상한가</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=203&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=38&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 3.국내거래소 가입 방법 </font>
+                                    <font style="color:#FFFFFF">USDT 출금 규정 안내</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=204&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=37&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 4.거래소 내 개인지갑 등록 </font>
+                                    <font style="color:#FFFFFF">USDT 입금 규정 안내</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=205&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=33&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 5.거래소 개인지갑 송금방법 </font>
+                                    <font style="color:#FFFFFF">USDT 콤프 및 롤링 안내</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                     <tr class="notice">
                         <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
-                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=206&amp;code_group=65&amp;code_no=65&amp;code=5&amp;Page.IsBack.List=JTJGZnJlZWJvYXJkJTJFYXNwJTNG"><b>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=11&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
                                     <font style="color:#609f9f;">◎</font>
-                                    <font style="color:#FFFFFF"> 6.개인지갑 가스비 안내 </font>
+                                    <font style="color:#FFFFFF">USDT 카지노 이용안내</font>
                                     <font style="color:#609f9f;">◎</font>
                                 </b> </a><span class="num_style"></span> </td>
                         <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
-                        <td width="110" align="center" class="date" style="display:none">-</td>
+                        <td width="110" align="center" class="date" style="">-</td>
+                        <td width="70" align="center" class="hit" style="display:none"></td>
+                    </tr>
+                    <tr class="notice">
+                        <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=10&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
+                                    <font style="color:#609f9f;">◎</font>
+                                    <font style="color:#FFFFFF">양방 및 프로모션 악용제재 안내</font>
+                                    <font style="color:#609f9f;">◎</font>
+                                </b> </a><span class="num_style"></span> </td>
+                        <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
+                        <td width="110" align="center" class="date" style="">-</td>
+                        <td width="70" align="center" class="hit" style="display:none"></td>
+                    </tr>
+                    <tr class="notice">
+                        <td width="70" height="30" align="center" class="num"><img src="/backend/images/icon_notice.gif"></td>
+                        <td class="subject" style="text-align:left"><a href="?mode=read&amp;seq=9&amp;code_group=65&amp;code_no=65&amp;code=7&amp;Page.IsBack.List=JTJGbm90aWNlJTJFYXNwJTNG"><b>
+                                    <font style="color:#609f9f;">◎</font>
+                                    <font style="color:#FFFFFF">베팅거절사례</font> (베팅무효)<font style="color:#609f9f;">◎</font>
+                                </b> </a><span class="num_style"></span> </td>
+                        <td width="126" class="writer" style=""><img src="/backend/images/grade/manager.gif?2017-09-15" align="absmiddle" style="width: 24px;"> 관리자 </td>
+                        <td width="110" align="center" class="date" style="">-</td>
                         <td width="70" align="center" class="hit" style="display:none"></td>
                     </tr>
                 </tbody>

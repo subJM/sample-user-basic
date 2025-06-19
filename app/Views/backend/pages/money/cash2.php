@@ -1,6 +1,6 @@
 <?= $this->extend('backend/layout/pages-layout'); ?>
 <?= $this->section('content') ?>
-<form name="frm" id="frm" method="post" action="/cash_02.asp">
+<form name="frm" id="exchange" >
     <input type="hidden" name="mode" id="mode">
     <div class="sub_content_arr">
         <div>
@@ -214,4 +214,98 @@
     <input type="hidden" name="account" id="account" value="TUCTWEgVD8kdf3kmNChRrtrH5fogED****">
     <input type="hidden" name="depositor" id="depositor" value="루비">
 </form>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        money_list();
+
+        $("#money").focus();
+        // 세자리 마다 콤마 찍기
+        $(".money").each(function() {
+            $(this).keyup(function() {
+                $(this).val($(this).val().replace(/\,/gi, "").money());
+            });
+        });
+
+
+        $("span.money").each(function() {
+            $(this).text($(this).text().money());
+        }).css("font-weight", "bold");
+
+
+        $("#exchange").submit(function() {
+            var point = $(".mb_point").eq(0).text().replace(/\,/gi, ""); // 보유금액
+            var pri = $("#money").val().replace(/\,/gi, ""); // 환전금액
+            var pri2 = parseInt(pri / 10000) * 10000;
+
+            if ($("#money").val() != "") {
+                if (!pri.isNum()) {
+                    alert("금액은 숫자만 입력 가능합니다.");
+                    $("#money").focus();
+                    return false;
+                }
+            }
+
+            var exMoneyMin = 10000;
+            var exMoneyUnit = 1;
+
+            if (pri < exMoneyMin) {
+                alert("환전금액을 정확히 입력해 주십시오.\n\n" + String(exMoneyMin).money() + "원 이상부터 환전가능합니다.");
+                $("#money").focus();
+                return false;
+            }
+
+            if (exMoneyUnit > 0) {
+                if (pri % exMoneyUnit != 0) {
+                    alert("환전금액은 " + String(exMoneyUnit).money() + "원 단위로만 가능합니다.");
+                    $("#money").focus();
+                    return false;
+                }
+            }
+
+            if (parseInt(pri, 10) > parseInt(point, 10)) {
+                alert('보유금액보다 환전금액이 더 많습니다.\n금액을 정확히 기재해 주세요.');
+                $("#money").focus();
+                return false;
+            }
+
+            if (!$("#bank").checkField("거래은행을 입력해 주시기 바랍니다.")) return false;
+            if (!$("#account").checkField("계좌번호를 정확히 입력해 주시기 바랍니다.")) return false;
+            if (!$("#depositor").checkField("계좌번호를 정확히 입력해 주시기 바랍니다.")) return false;
+
+            $("#mode").val("money_insert");
+        });
+    });
+
+    function money_list(page) {
+        // $.ajax({
+        //     url: "/cash_02_1.asp",
+        //     data: {
+        //         "mode": "ajax",
+        //         "page": page
+        //     },
+        //     cache: false,
+        //     success: function(data) {
+        //         $("#cash0202").empty().append(data);
+        //     }
+        // });
+    }
+
+    function SELECT_MONEY(Values) {
+        var cValue
+
+        cValue = document.getElementById("money").value.num();
+        if (cValue == "") cValue = 0;
+        if (!isNaN(Values)) {
+            if (Values == "0") {
+                document.getElementById("money").value = 0;
+            } else {
+                moneys = parseInt(cValue, 10) + parseInt(Values, 10);
+                document.getElementById("money").value = String(moneys).money();
+            }
+        }
+        document.getElementById("money").focus();
+    }
+</script>
 <?= $this->endSection() ?>

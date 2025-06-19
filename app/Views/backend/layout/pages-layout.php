@@ -16,6 +16,10 @@
 
 <script language="javascript" type="text/javascript" src="/backend/js/jquery-1.8.3.min.js"></script> 
 <script language="javascript" type="text/javascript" src="/backend/js/jquery.comm.js"></script> 
+<script language="javascript" type="text/javascript" src="/backend/js/lib.string.js"></script> 
+<script language="javascript" type="text/javascript" src="/backend/js/lib.stringbuilder.js"></script> 
+<script language="javascript" type="text/javascript" src="/backend/js/lib.string.js"></script> 
+<script language="JavaScript" type="text/javascript" src="/backend/js/development-bundle/ui/jquery/pngFix.js"></script> 
 <script language="JavaScript" type="text/javascript" src="/backend/js/development-bundle/ui/jquery/pngFix.js"></script> 
 </head>
 <body>

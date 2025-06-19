@@ -352,55 +352,55 @@ text-shadow: 0px 2px 5px rgba(255, 200, 0, 1);
 }
 /*
 .ico64 a {
-	background: url("/html/usdt/images/icon-ironball.png") no-repeat left;
+	background: url("/backend/images/icon-ironball.png") no-repeat left;
 }
 .ico6 a {
-	background: url("/html/usdt/images/icon-ladder.png") no-repeat left;
+	background: url("/backend/images/icon-ladder.png") no-repeat left;
 }
 .ico7 a {
-	background: url("/html/usdt/images/icon-snail.png") no-repeat left;
+	background: url("/backend/images/icon-snail.png") no-repeat left;
 }
 .ico8 a {
-	background: url("/html/usdt/images/icon-lowhigh.png") no-repeat left;
+	background: url("/backend/images/icon-lowhigh.png") no-repeat left;
 }
 .ico11 a {
-	background: url("/html/usdt/images/icon-lowhigh.png") no-repeat left;
+	background: url("/backend/images/icon-lowhigh.png") no-repeat left;
 }
 .ico9 a {
-	background: url("/html/usdt/images/icon-powerball.png") no-repeat left;
+	background: url("/backend/images/icon-powerball.png") no-repeat left;
 }
 .ico10 a {
-	background: url("/html/usdt/images/icon-aladdin.png") no-repeat left;
+	background: url("/backend/images/icon-aladdin.png") no-repeat left;
 }
 .ico12 a {
-	background: url("/html/usdt/images/icon-aladdin.png") no-repeat left;
+	background: url("/backend/images/icon-aladdin.png") no-repeat left;
 }
 .ico13 a {
-	background: url("/html/usdt/images/icon-soccer.png") no-repeat left;
+	background: url("/backend/images/icon-soccer.png") no-repeat left;
 }
 .ico14 a {
-	background: url("/html/usdt/images/icon-dog.png") no-repeat left;
+	background: url("/backend/images/icon-dog.png") no-repeat left;
 }
 .ico15 a {
-	background: url("/html/usdt/images/icon-dari.png") no-repeat left;
+	background: url("/backend/images/icon-dari.png") no-repeat left;
 }
 .ico61 a {
-	background: url("/html/usdt/images/icon-parao.png") no-repeat left;
+	background: url("/backend/images/icon-parao.png") no-repeat left;
 }
 .ico62 a {
-	background: url("/html/usdt/images/icon-powerladder.png") no-repeat left;
+	background: url("/backend/images/icon-powerladder.png") no-repeat left;
 }
 .ico77 a {
-	background: url("/html/usdt/images/icon-rult.png") no-repeat left;
+	background: url("/backend/images/icon-rult.png") no-repeat left;
 }
 .ico66 a {
-	background: url("/html/usdt/images/icon-choice.png") no-repeat left;
+	background: url("/backend/images/icon-choice.png") no-repeat left;
 }
 .ico52 a {
-	background: url("/html/usdt/images/icon-mgmo.png") no-repeat left;
+	background: url("/backend/images/icon-mgmo.png") no-repeat left;
 }
 .ico78 a {
-	background: url("/html/usdt/images/icon-mgmb.png") no-repeat left;
+	background: url("/backend/images/icon-mgmb.png") no-repeat left;
 }
 	*/
 .top-sub-navi {
@@ -526,7 +526,7 @@ text-shadow: 0px 2px 5px rgba(255, 200, 0, 1);
 }
 .top-info-right li {
     float: left;
-    background: url("/html/usdt/images/bg_gmenu_line.gif") right no-repeat;
+    background: url("/backend/images/bg_gmenu_line.gif") right no-repeat;
 }
 .top-info-right li:last-child {
     background: none;
@@ -554,7 +554,7 @@ text-shadow: 0px 2px 5px rgba(255, 200, 0, 1);
     vertical-align: middle;
     margin-top: -2px;
 }
-.bg_top_arr { /* background:url(/html/usdt/images/bg_top_arr.png?4); height:34px; border-bottom:solid 1px #000;*/
+.bg_top_arr { /* background:url(/backend/images/bg_top_arr.png?4); height:34px; border-bottom:solid 1px #000;*/
     top: 0;
     left: 0;
     z-index: 9999;
@@ -566,7 +566,7 @@ text-shadow: 0px 2px 5px rgba(255, 200, 0, 1);
     height: 70px;
     position: fixed;
     top: 0px;
-    /*background: url("/html/usdt/images/header-background.png"); background-size: cover; */
+    /*background: url("/backend/images/header-background.png"); background-size: cover; */
     background: #151515
 }
 .user-info-cont {
@@ -911,7 +911,7 @@ left:left:expression( 1010 + (document.body.clientwidth-1010)/2 );
 }
 .b-kakao-talk {
     position: relative;
-    background: url(/html/usdt/images/banner-kakao.png?4);
+    background: url(/backend/images/banner-kakao.png?4);
     height: 75px;
     display: block;
 }
@@ -1773,7 +1773,7 @@ input[type='text']:focus, input[type='password']:focus, select:focus, textarea:f
     line-height: 23px;
     cursor: pointer;
        background-color: #282932;
-	    background: #282932 url("/html/usdt/images/bg-frm.png?5") center center;
+	    background: #282932 url("/backend/images/bg-frm.png?5") center center;
 	background-size: cover
 }
 .logingirl {
