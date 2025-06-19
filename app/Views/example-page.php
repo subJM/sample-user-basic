@@ -1,4 +1,4 @@
-<?= $this->extend('backend/layout/pages-layout'); ?>
+<?= $this->extend(env('DOMAIN_NAME').'backend/layout/pages-layout'); ?>
 <?= $this->section('content') ?>
 ----- Page content here -----
 <?= $this->endSection() ?>

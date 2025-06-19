@@ -43,6 +43,8 @@ abstract class BaseController extends Controller
      */
     // protected $session;
 
+    protected $domainViewPath;
+
     /**
      * @return void
      */
@@ -52,6 +54,12 @@ abstract class BaseController extends Controller
         parent::initController($request, $response, $logger);
 
         // Preload any models, libraries, etc, here.
+
+        // 현재 호스트 도메인
+        $host = $request->getServer('HTTP_HOST'); // 예: example.com
+
+        // 뷰 경로 설정
+        $this->domainViewPath = 'views/' . $host . '/';
 
         // E.g.: $this->session = service('session');
     }
